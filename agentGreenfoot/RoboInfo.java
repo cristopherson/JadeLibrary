@@ -1,3 +1,5 @@
+package agentGreenfoot;
+
 public class RoboInfo {
 	private String id;
 	private int enemyX;
