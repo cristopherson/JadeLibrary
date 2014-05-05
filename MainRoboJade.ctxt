@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=host\ port\ name
+comment0.target=jade.wrapper.AgentController\ startMyJade(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=void\ setup()
+comment2.params=agentName
+comment2.target=void\ initAgent(java.lang.String)
+comment3.params=id\ enemyX\ enemyY\ event
+comment3.target=void\ sendMessage(java.lang.String,\ int,\ int,\ Event)
+comment4.params=
+comment4.target=boolean\ isHelpRequired()
+comment5.params=help
+comment5.target=void\ setHelpRequired(boolean)
+comment6.params=
+comment6.target=RoboInfo\ getRoboInfo()
+comment7.params=myRoboInfo
+comment7.target=void\ setRoboInfo(RoboInfo)
+comment8.params=
+comment8.target=java.lang.String\ getId()
+comment9.params=id
+comment9.target=void\ setId(java.lang.String)
+numComments=10

@@ -1,14 +1,16 @@
-package agentGreenfoot;
+package agentGreenfoot; 
 
 public class RoboInfo {
 	private String id;
 	private int enemyX;
 	private int enemyY;
+	private Event event;
 
-	public RoboInfo(String id, int enemyX, int enemyY) {
+	public RoboInfo(String id, int enemyX, int enemyY, Event event) {
 		this.setId(id);
 		this.setEnemyX(enemyX);
 		this.setEnemyY(enemyY);
+		this.setEvent(event);
 	}
 
 	public String getId() {
@@ -33,5 +35,13 @@ public class RoboInfo {
 
 	public void setEnemyY(int enemyY) {
 		this.enemyY = enemyY;
+	}
+
+	public Event getEvent() {
+		return event;
+	}
+
+	public void setEvent(Event event) {
+		this.event = event;
 	}
 }

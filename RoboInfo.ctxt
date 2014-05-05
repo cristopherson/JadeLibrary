@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=id\ enemyX\ enemyY\ event
+comment0.target=RoboInfo(java.lang.String,\ int,\ int,\ Event)
+comment1.params=
+comment1.target=java.lang.String\ getId()
+comment2.params=id
+comment2.target=void\ setId(java.lang.String)
+comment3.params=
+comment3.target=int\ getEnemyX()
+comment4.params=enemyX
+comment4.target=void\ setEnemyX(int)
+comment5.params=
+comment5.target=int\ getEnemyY()
+comment6.params=enemyY
+comment6.target=void\ setEnemyY(int)
+comment7.params=
+comment7.target=Event\ getEvent()
+comment8.params=event
+comment8.target=void\ setEvent(Event)
+numComments=9
